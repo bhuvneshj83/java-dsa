@@ -1,8 +1,8 @@
 public class Palindrome {
     public static void main(String[] args) {
 
-        int num = 123;
-        int original = num;
+        int original = 121;
+        int num = original;
         int reverse = 0;
 
         while (num != 0) {
