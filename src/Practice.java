@@ -1,13 +1,32 @@
 public class Practice {
+
+    static int add(int a, int b) {
+        int ans = a + b;
+        return ans;
+    }
+
+    static boolean isEven(int num) {
+        return num % 2 == 0;
+    }
+
+    static int getMaximum(int n,int m) {
+        if (n > m) {
+            return n;
+        } else {
+            return m;
+        }
+    }
+
+
     public static void main(String[] args) {
-        int choice = 1;
+        int result =getMaximum(10, 7);
+        System.out.println(result);
 
-
-        do {
-            System.out.println("----- MENU -----");
-            System.out.println("1. Start");
-
-
-        } while (choice != 3);
+//        System.out.println(isEven(8));
+//        System.out.println(isEven(9));
+//        int result = add(2, 4);
+//        System.out.println(result);
     }
 }
+
+

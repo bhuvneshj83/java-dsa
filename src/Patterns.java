@@ -2,22 +2,22 @@ public class Patterns {
     public static void main(String[] args) {
 
 
-//        int u = 5;
-//
-//        for (int row = 1; row <= u; row++) {
-//            // for each row -> spaces, stars
-//
-//            //spaces
-//            for (int col = 1; col <= u - row; col++) {
-//                System.out.print(" ");
-//            }
-//            //stars
-//            for (int col = 1; col <= u; col++) {
-//                System.out.print("* ");
-//            }
-//            //move to next row
-//            System.out.println();
-//        }
+        int u = 5;
+
+        for (int row = 1; row <= u; row++) {
+            // for each row -> spaces, stars
+
+            //spaces
+            for (int col = 1; col <= u - row; col++) {
+                System.out.print(" ");
+            }
+            //stars
+            for (int col = 1; col <= u; col++) {
+                System.out.print("* ");
+            }
+            //move to next row
+            System.out.println();
+        }
 
 
 //        int m = 5;
